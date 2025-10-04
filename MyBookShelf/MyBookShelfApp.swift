@@ -11,7 +11,7 @@ import SwiftUI
 struct MyBookShelfApp: App {
     var body: some Scene {
         WindowGroup {
-            BookShelfView(books: Book.sampleBooks )
+            BookShelfView()
         }
     }
 }
